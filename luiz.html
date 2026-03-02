@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Nota de Aula: Diagrama de Casos de Uso</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+        .form-section { background: #f9f9f9; padding: 20px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <h1>Engenharia de Software: Diagramas UML</h1>
+    
+    <p>O <strong>Diagrama de Casos de Uso</strong> descreve as funcionalidades do sistema de acordo com usuario. Ele é essencial para entender <em>quem</em> usa o sistema e <em>o que</em> faz.</p>
+
+    <h2>Elementos Principais</h2>
+    <ul>
+        <li><strong>Ator:</strong> Representa os papéis que interagem com o sistema (ex: Cliente, Admin).</li>
+        <li><strong>Caso de Uso:</strong> Representa uma funcionalidade (ex: Fazer Login).</li>
+        <li><strong>Fronteira:</strong> Define o limite do sistema.</li>
+    </ul>
+
+    <h2>Exemplo Visual</h2>
+    <img src="https://www.planttext.com/api/plantuml/png/RPB1JiCm38RlbVeELk-RnDRjWAPgm6KSa108SGw9jqKawKWS2GIyEqxMqLRgeGVd-sB_SheD93n5Qyh2u9w0Ml3wS2HGsgCatRgo499Q3zKJIZob4nse0X60XNzuewnEm0ikCnNAbaNg8Tp185IlHqGJu5Q_8-ouEJn_1K9RmNTP0CI0KWJM7eHsn1-y9T5SPhtSNKrhCWPgBVgXkXYfE-4K1q3t4RNN63ffEPBkGuYOPtQudkgHCtcaw5sdhKRQe-TKQI-eJvSmwx983dU4-Rn9W-4QDXljf8aAc-OCLnrSJy4QPhEVH1UPuYUXKmd-vWqpRSuBwelbiAY71IVcf-dlz0MlRSkDyy_m1m00" alt="Exemplo de Diagrama de Caso de Uso">
+
+    <h2>Comparativo de Relacionamentos</h2>
+    <table>
+        <tr>
+            <th>Tipo</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>Include</td>
+            <td>Uma funcionalidade que é obrigatória para outra.</td>
+        </tr>
+        <tr>
+            <td>Extend</td>
+            <td>Uma funcionalidade opcional ou condicional.</td>
+        </tr>
+    </table>
+
+    <p>Para saber mais, acesse a <a href="https://www.uml-diagrams.org" target="_blank">documentação oficial da UML</a>.</p>
+
+    <hr>
+
+    <div class="form-section">
+        <h2>Avalie seu Conhecimento</h2>
+        <form action="#">
+            <label for="nome">Seu Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <p>O que o "Ator" representa no diagrama?</p>
+            <input type="radio" id="op1" name="pergunta" value="cod">
+            <label for="op1">O código fonte do sistema.</label><br>
+            <input type="radio" id="op2" name="pergunta" value="user">
+            <label for="op2">Um papel desempenhado por um usuário ou sistema externo.</label><br><br>
+
+            <button type="submit">Enviar Respostas</button>
+        </form>
+    </div>
+<footer>
+
+<p>Luiz Felipe Lino</p>
+<p>RA: 25001149-2</p>
+
+</footer>
+
+</body>
+</html>
